@@ -1,0 +1,92 @@
+[
+  {
+    "id": "4b3810da-69f8-4e8e-9b7d-8165977eacff",
+    "title": "Electric Guitar",
+    "description": "A stylish electric guitar perfect for rock and blues.",
+    "currentBidPrice": 857.10,
+    "timeLeft": "5d 21h",
+    "bidsCount": 35,
+    "image": "https://i.ibb.co/kg4y0qF0/Bid2-min.png"
+  },
+  {
+    "id": "e90b7eef-5034-4056-96f8-16179b1e6eab",
+    "title": "Laptop",
+    "description": "A fast and reliable laptop for work and entertainment.",
+    "currentBidPrice": 125.92,
+    "timeLeft": "1d 13h",
+    "bidsCount": 31,
+    "image": "https://i.ibb.co/C5WKpzft/Bid3-min.png"
+  },
+  {
+    "id": "8ec23032-a531-4c55-83be-a60b2822fef5",
+    "title": "Painting",
+    "description": "A beautiful painting to decorate your living space.",
+    "currentBidPrice": 878.89,
+    "timeLeft": "2d 16h",
+    "bidsCount": 50,
+    "image": "https://i.ibb.co/B5drTYjz/Bid7-min.png"
+  },
+  {
+    "id": "b46f1d09-a0e0-480e-b567-43193d79f0b6",
+    "title": "Painting",
+    "description": "A beautiful painting to decorate your living space.",
+    "currentBidPrice": 98.53,
+    "timeLeft": "4d 9h",
+    "bidsCount": 32,
+    "image": "https://i.ibb.co/B5drTYjz/Bid7-min.png"
+  },
+  {
+    "id": "0dbeaaf0-69ca-4062-b195-a7f757f8c151",
+    "title": "Laptop",
+    "description": "A fast and reliable laptop for work and entertainment.",
+    "currentBidPrice": 467.42,
+    "timeLeft": "4d 7h",
+    "bidsCount": 36,
+    "image": "https://i.ibb.co/C5WKpzft/Bid3-min.png"
+  },
+  {
+    "id": "114a2185-d3b9-4a02-a710-d9e7cd5ba154",
+    "title": "Electric Guitar",
+    "description": "A stylish electric guitar perfect for rock and blues.",
+    "currentBidPrice": 458.62,
+    "timeLeft": "3d 5h",
+    "bidsCount": 36,
+    "image": "https://i.ibb.co/kg4y0qF0/Bid2-min.png"
+  },
+  {
+    "id": "37e6408f-745f-4543-a64c-0c74b3d7578e",
+    "title": "Chair",
+    "description": "A comfortable ergonomic chair for your home office.",
+    "currentBidPrice": 317.36,
+    "timeLeft": "5d 7h",
+    "bidsCount": 24,
+    "image": "https://i.ibb.co/XZ5mQKQm/Bid5-min.png"
+  },
+  {
+    "id": "f559f257-c625-4155-87b9-a1b7ddaa9107",
+    "title": "Electric Guitar",
+    "description": "A stylish electric guitar perfect for rock and blues.",
+    "currentBidPrice": 851.74,
+    "timeLeft": "5d 19h",
+    "bidsCount": 1,
+    "image": "https://i.ibb.co/kg4y0qF0/Bid2-min.png"
+  },
+  {
+    "id": "54a99a36-6fd0-4873-804d-ac3cc2237db4",
+    "title": "Laptop",
+    "description": "A fast and reliable laptop for work and entertainment.",
+    "currentBidPrice": 196.61,
+    "timeLeft": "4d 10h",
+    "bidsCount": 43,
+    "image": "https://i.ibb.co/C5WKpzft/Bid3-min.png"
+  },
+  {
+    "id": "3a16bb78-e824-406b-8252-6122fd7d553d",
+    "title": "Milk and Honey Book",
+    "description": "A collection of poetry and prose by Rupi Kaur.",
+    "currentBidPrice": 845.88,
+    "timeLeft": "4d 14h",
+    "bidsCount": 44,
+    "image": "https://i.ibb.co/603Cg0cc/Bid6-min.png"
+  }
+]
