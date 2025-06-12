@@ -6,18 +6,19 @@ import { ToastContainer, Bounce, toast } from 'react-toastify';
 
 const Auction = () => {
     const [rows, setRows] = useState([]);
+    const [items, setItems] = useState([]);
+    const [clr, setClr] = useState({});
+
     useEffect(() => {
       fetch("items.json")
         .then(res => res.json()) 
         .then(data=>setRows(data))
     }, []);
 
-    const [items, setItems] = useState([]);
     const handleBtn = (row) => {
         setItems([...items, row]);
     };
 
-    const [clr, setClr] = useState({});
     const handleColor = (id) => {
         setClr((prev) => ({
             ...prev,
@@ -47,7 +48,6 @@ const Auction = () => {
             [id]: false,
         }));
     }
-
 
     return (
         <div className='min-h-screen p-20 bg-slate-300'>
