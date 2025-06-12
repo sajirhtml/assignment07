@@ -4,7 +4,6 @@ import { FaHeart } from "react-icons/fa";
 
 const RowBtn = ({handleBtn,handleColor,id,row,clr}) => {
     return (
-        <div>
             <button 
                 onClick={()=>{
                     handleColor(id);
@@ -16,7 +15,6 @@ const RowBtn = ({handleBtn,handleColor,id,row,clr}) => {
                     clr? <FaHeart style={{ fill: 'red' }}/> : <FaRegHeart />
                     }
             </button>
-        </div>
     );
 };
 
