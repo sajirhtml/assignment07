@@ -25,7 +25,8 @@ const Cart = ({items, handleX}) => {
                             <tr>
                                 <td colSpan={3}>
                                     <div className="flex flex-col items-center justify-center text-center py-20">
-                                        <h1 className="text-xl pb-5">No favorites yet</h1>
+                                        <h1 className="text-xl pb-5 text-blue-950 font-semibold">No favorites yet   
+                                        </h1>
                                         <p>Click the heart icon on any item to add it to your favorites</p>
                                     </div>
                                 </td>
