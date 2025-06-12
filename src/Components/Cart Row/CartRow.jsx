@@ -25,20 +25,24 @@ const CartRow = ({item, handleX}) => {
         </td>
         <th></th>
         <th>
-            <button onClick={()=>
-            {handleX(item.id);
-            toast.error(`${item.title} removed from Favorite!`, {
-                position: "top-right",
-                autoClose: 5000,
-                hideProgressBar: false,
-                closeOnClick: false,
-                pauseOnHover: true,
-                draggable: true,
-                progress: undefined,
-                theme: "light",
-                transition: Bounce,
-            });
-            }}>x</button>
+            <button 
+                className='btn btn-sm btn-ghost rounded-4xl text-lg'
+                onClick={()=>
+                    {handleX(item.id);
+                    toast.error(`${item.title} removed from Favorite!`, {
+                        position: "top-right",
+                        autoClose: 5000,
+                        hideProgressBar: false,
+                        closeOnClick: false,
+                        pauseOnHover: true,
+                        draggable: true,
+                        progress: undefined,
+                        theme: "light",
+                        transition: Bounce,
+                    });
+                }}>
+                    x
+            </button>
         </th>
       </tr>
     );
