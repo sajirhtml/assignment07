@@ -1,4 +1,3 @@
-
 import RowBtn from '../RowBtn/RowBtn';
 
 const Row = ({row,handleBtn, id, handleColor, clr}) => {
@@ -7,6 +6,7 @@ const Row = ({row,handleBtn, id, handleColor, clr}) => {
         <tr>
             <td>
                 <div className="flex items-center gap-3">
+
                     <div className="avatar">
                         <div className="mask mask-squircle h-12 w-12">
                             <img
@@ -14,16 +14,21 @@ const Row = ({row,handleBtn, id, handleColor, clr}) => {
                                 alt="Avatar Tailwind CSS Component" />
                         </div>
                     </div>
+
                     <div>
                         <div className="font-semibold">{row.title}</div>
                     </div>
+
                 </div>
             </td>
+
             <td>
                 ${row.currentBidPrice}
             </td>
+
             <td>{row.timeLeft} Days left</td>
             <th>
+
                 <RowBtn
                 handleBtn={handleBtn}
                 handleColor={handleColor}
@@ -31,6 +36,7 @@ const Row = ({row,handleBtn, id, handleColor, clr}) => {
                 id={id}
                 row={row}/>
             </th>
+            
         </tr>
     );
 };
