@@ -41,7 +41,6 @@ const CartRow = ({item, handleX}) => {
             }}>x</button>
         </th>
       </tr>
-
     );
 };
 
