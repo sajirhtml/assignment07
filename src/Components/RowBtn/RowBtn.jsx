@@ -1,22 +1,21 @@
 import React from 'react';
+import { FaRegHeart } from "react-icons/fa6";
+import { FaHeart } from "react-icons/fa";
 
-const RowBtn = () => {
+const RowBtn = ({handleBtn,handleColor,id,row,clr}) => {
     return (
         <div>
-            <button
-                    onClick={()=>{
-                        handleBtnColor();
-                        handleBtn(row)}}
-                    disabled={clicked}
+            <button 
+                onClick={()=>{
+                    handleColor(id);
+                    handleBtn(row)}}
+                    disabled={clr}
                     style={{
-                        cursor: clicked ? 'not-allowed' : 'pointer'
-                    }}
-                >
+                        cursor: clr ? 'not-allowed' : 'pointer'}}>
                     {
-                        clicked? <FaHeart style={{ fill: 'red' }}/> : <FaRegHeart />
+                    clr? <FaHeart style={{ fill: 'red' }}/> : <FaRegHeart />
                     }
-                    
-                </button>
+            </button>
         </div>
     );
 };

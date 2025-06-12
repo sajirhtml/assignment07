@@ -1,16 +1,6 @@
-import React, { useEffect, useState } from 'react';
 import Row from '../Row/Row';
 
-const Table = ({handleBtn}) => {
-
-    const [rows, setRows] = useState([]);
-
-    useEffect(() => {
-      fetch("items.json")
-        .then(res => res.json()) 
-        .then(data=>setRows(data))
-    }, []);
-
+const Table = ({handleBtn, rows, clr, handleColor}) => {
     return (
         <div className='bg-white rounded-2xl'>
             <div className="overflow-x-auto p-8">
@@ -27,9 +17,12 @@ const Table = ({handleBtn}) => {
     <tbody>
 
         {
-        rows.map((row,index)=>(
+        rows.map((row)=>(
         <Row 
-        key={index}
+        key={row.id}
+        id={row.id}
+        clr={clr[row.id]}
+        handleColor={handleColor}
         row={row}
         handleBtn={handleBtn}
         ></Row>))
